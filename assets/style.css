@@ -188,12 +188,20 @@ nav ul li a {
     border-radius: 48px;
     text-decoration: none;
     border: 1px solid #ffffff;
+
 } 
 
 .logo-section{
     padding-top:120px;
     padding-bottom:120px;
     background: #ffffff;
+}
+
+
+.logo-section{
+  padding-top:120px;
+  padding-bottom:120px;
+  background: #ffffff;
 }
 .logo-box{
     display:flex;
