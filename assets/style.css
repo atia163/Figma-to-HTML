@@ -119,14 +119,31 @@ nav ul li a {
 .online-games {
     margin-bottom: 60px;
 }
+.online-games .online-games-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
  .online-games-header h2  {
-   display:flex;
-   justify-content:center;
    margin-top: 48px;
 }
 .online-games-header h4 {
   display:flex;
   justify-content:center;
+}
+
+.online-games-header .title span {
+	background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.online-games.title{
+  font-size: 48px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#f948b2, #8758f1);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 .online-games .img-container  {
     display: flex;
@@ -162,6 +179,7 @@ nav ul li a {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    margin-top: 60px;
 }
 .test h2 span{
     background:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -171,6 +189,7 @@ nav ul li a {
 }
 .career-section{
     background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    margin-top: 60px;
 }
 .career-section-wrap{
     display:flex;
@@ -181,6 +200,13 @@ nav ul li a {
     font-size:20px;
     width:100%;
 } 
+.list-wrap{
+  display:flex;
+  margin-bottom:60px;
+}
+.list-wrap ul li{
+  margin-bottom:10px;
+}
 
 .btn-class{
     padding: 20px 39px 20px 39px;
@@ -188,7 +214,6 @@ nav ul li a {
     border-radius: 48px;
     text-decoration: none;
     border: 1px solid #ffffff;
-
 } 
 
 .logo-section{
@@ -197,12 +222,6 @@ nav ul li a {
     background: #ffffff;
 }
 
-
-.logo-section{
-  padding-top:120px;
-  padding-bottom:120px;
-  background: #ffffff;
-}
 .logo-box{
     display:flex;
     gap:29px;
